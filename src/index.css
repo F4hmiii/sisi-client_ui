@@ -1,0 +1,32 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap');
+
+html {
+    font-size: 75%;
+}
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+    :root {
+        /* default primary color*/
+      --color-primary: #299D91;
+    }
+  }
+  
+  .theme-blue {
+    --color-primary: #1E90FF;
+  }
+  
+  .theme-purple {
+    --color-primary: #6A5ACD;
+  }
+  
+  .theme-pink {
+    --color-primary: #DB7093;
+  }
+  
+  .theme-brown {
+    --color-primary: #8B4513;
+  }
